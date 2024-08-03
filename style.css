@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;                 /*It allows easy alignment, distribution of space, and ordering of items. */
+    align-items: center;           /*all written constains comes to center from up*/
+    justify-content: center;       /*all written constains comes to center from left*/
+}
+
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 800;
+    font-size: xx-large; */
+    display: flex;                 /*It allows easy alignment, distribution of space, and ordering of items. */
+    align-items: center;           /*all written constains comes to center from up*/
+    justify-content: center;       /*all written constains comes to center from left*/
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.rect{
+    display: flex;                /*basically it will arrange the element of it from left to right postion*/
+}
+
+.for{
+    display: flex;
+}
+#for1{
+    margin-right: 55px;
+}
+#for3{
+    margin-right: 0px;
+}
